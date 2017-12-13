@@ -15,14 +15,15 @@ The purpose of my project was to display potential attacker effects and inspire 
 ### Detailed Project Description
 
 #### Background Information:
- The voice assistant device I used was the Echo Dot. Alexa is the cloud voice service and Echo is the hardware device consisting of a microphone array capable of beaming and noise cancellation which respond to the wake word “Alexa”.
-It's interesting how much is accessible through Alexa and the Amazon eco system . For example, to make the Alexa Skill, I used my AWS account which is linked to my Alexa Skills Developer account, Amazon Alexa account, Amazon.com account, Zappos account, which means that if someone hacked into my account through my Echo they would have access to my credit card, buying items, the things that I’m hosting on AWS, the hardware and appliances that the voice assistant is connected to, and other private information. Also, most people have their voice assistants in an open mode, meaning that anyone can talk to it and the Echo will respond. In addition, a couple months ago I read an article about how some hackers are using high frequency recordings that the Echo’s hardware can pick up and execute but that humans can’t hear, allowing them to secretly gain access to information without the owner knowing at all. Voice Assistants are becoming increasingly popular especially in homes and other hardware devices. People are trusting voice assistants for lights, cameras, locks, etc. and personal information due to the convenience that it offers.
+ The voice assistant device I used was the Echo Dot. Alexa is the cloud voice service and Echo is the hardware device consisting of a microphone array capable of beaming and noise cancellation which respond to the wake word “Alexa”. As an Amazon user, I thought it was interesting how much is accessible through Alexa and the Amazon ecosystem . For example, to make the Alexa Skills, I used my AWS account which is linked to my Alexa Skills Developer account, Amazon Alexa account, Amazon.com account, Zappos account, and Goodreads account, which means if someone hacked into my account through my Echo they would have access to my credit card, buying items, the things that I’m hosting on AWS, the hardware and appliances that the voice assistant is connected to, and other private information. Also, most people have their voice assistants in an open mode, meaning that anyone can talk to it and the Echo will respond. In addition, a couple months ago I read an article about how some hackers are using high frequency recordings that the Echo’s hardware can pick up and execute, but that humans can’t hear, allowing them to secretly gain access to information without the owner knowing. Voice Assistants are becoming increasingly popular, especially in homes and other hardware devices. People are trusting voice assistants for lights, cameras, locks, etc. and personal information due to the convenience and services that it offers.
 
 I wanted to demonstrate these themes with three Alexa Skills representing three different scenarios or stories.
 
 ##### Alexa Skill One: Phone trigger 
 An attacker could secretly ask the Echo to call the owner and send an evil message. The Echo does not record the voice or recording of the attacker, because the Alexa voice service only keeps the JSON objects processed from the voice commands. This allows the attacker to have anonymity and makes it difficult to track or trace back the attacker. I set up an Alexa Skill to demonstrate this, which assumes that the owner has settings on his or her device that knows the owner's phone number and allows it to be messaged, which people usually enable for convenience purposes. The attacker will ask "Alexa trigger call my phone" and the phone message sent is "Send $2000 to xyzhacker paypal account otherwise you will die tomorrow". 
 
+##### Alexa Skill Two: Car Hacker
+Let's say there is someone who wants to hack your car and needs to know your car model and other private information that is difficult to find. The 
 
 ### Technical Description
 
@@ -31,6 +32,9 @@ An attacker could secretly ask the Echo to call the owner and send an evil messa
 < You can also explain the development process here >
 ##### Alexa Skill One: Phone trigger 
 This was made by linking my Amazon Alexa account to an IFTTT applet and adjusting the settings in the IFTTT applet. 
+
+##### Alexa Skill Two: Car Hacker
+Let's say there is someone who wants to hack your car and needs to know your car model and other private information that is difficult to find. The  
 
 
 #### Hardware Wiring Diagram
