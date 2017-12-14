@@ -75,7 +75,7 @@ You should link to your full code, either included in the repository (e.g. [my_c
 ### Design / Form
 The 3D printed enclosure represents a thief. I modeled the enclosure specific to the dimensions of the Echo Dot and left the top hollow for acoustic effects. I also made sure there was enough of a gap between the edge of the enclosure and the outer array of microphones. 
 
-![enclosure](images/enc.PNG{width:20%})
+![enclosure](images/enc.PNG =250px)
 
 The [video](https://drive.google.com/file/d/17v_A_foWOlvpR0w_vulE1JuxNCLYIStu/view?usp=sharing) also shows a 360 view of the enclosure. 
 
