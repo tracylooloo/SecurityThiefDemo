@@ -1,0 +1,90 @@
+{
+"intents": [
+{
+
+"intent": "ChangeColor",
+
+"slots": [
+{
+"name": "Color",
+"type": "COLOR"
+}
+]
+},
+{
+"intent": "ChangeIntensity",
+"slots": [
+{
+"name": "Intensity",
+"type": "AMAZON.NUMBER"
+}
+]
+},
+{
+"intent": "LightsOn"
+},
+{
+"intent": "LightsOff"
+},
+{
+"intent": "DimLights"
+},
+{
+"intent": "BrightenLights"
+},
+{
+"intent": "FadeOn"
+},
+{
+"intent": "FadeOff"
+},
+{
+"intent": "Exit"
+}
+]
+}
+
+Sample Utterances
+ChangeColor change color to {Color}
+ChangeColor change to {Color}
+ChangeColor turn lights to {Color}
+LightsOn turn lights on
+LightsOff turn lights off
+LightsOn lights on
+LightsOff lights off
+Exit exit
+Exit quit
+ChangeIntensity change intensity to {Intensity}
+ChangeIntensity change brightness to {Intensity}
+ChangeIntensity change intensity {Intensity}
+ChangeIntensity change brightness {Intensity}
+DimLights dim the lights
+BrightenLights brighten the lights
+DimLights intensity down
+BrightenLights intensity up
+DimLights brightness down
+BrightenLights brightness up
+MaxIntensity turn to maximum intensity
+MaxIntensity turn to maximum brightness
+MaxIntensity maximum intensity
+MaxIntensity maximum brightness
+MinIntensity turn to minimum intensity
+MinIntensity turn to minimum brightness
+MinIntensity minimum intensity
+MinIntensity minimum brightness
+FadeOn turn fade on
+FadeOn fade on
+FadeOff turn fade off
+FadeOff fade off
+
+COLOR
+RED
+BLUE
+PURPLE
+GREEN
+YELLOW
+AQUA
+WHITE
+BLACK
+ORANGE
+CYAN
