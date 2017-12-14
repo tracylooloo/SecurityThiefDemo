@@ -1,14 +1,10 @@
 # Final Project - Physical Computing and the Internet of Things
 
-This is a template for your final project documentation.  Please replace <content like this> with your own.  For help with the syntax of Github markdown, visit: [Mastering Markdown](https://guides.github.com/features/mastering-markdown/)
-
 *Name:*  Tracy Lu
 
 *Date:* December 2017
 
 ## Project:  Security Thief
-
-< 2 - 3 sentence brief description / abstract of your project>
 The purpose of my project was to display potential attacker effects and inspire caution about the use of IOT and cloud-based voice assistant devices, especially ones linked to private information and important smart home hardware. This was done by creating a series of Alexa Skills that involve private data and hardware. 
 
 
@@ -22,8 +18,13 @@ I wanted to demonstrate these themes with three Alexa Skills representing three 
 ##### Alexa Skill One: Phone trigger 
 An attacker could secretly ask the Echo to call the owner and send an evil message. The Echo does not record the voice or recording of the attacker, because the Alexa voice service only keeps the JSON objects processed from the voice commands. This allows the attacker to have anonymity and makes it difficult to track or trace back the attacker. I set up an Alexa Skill to demonstrate this, which assumes that the owner has settings on his or her device that knows the owner's phone number and allows it to be messaged, which people usually enable for convenience purposes. The attacker will ask "Alexa trigger call my phone" and the phone message sent is "Send $2000 to xyzhacker paypal account otherwise you will die tomorrow". 
 
+![IFTTT1](images/ifttt1a.PNG)  ![IFTTT1](images/ifttt1b.PNG)  ![IFTTT2](images/ifttt2.PNG)
+
+
+
 ##### Alexa Skill Two: Car Hacker
 Here is a [video](https://drive.google.com/file/d/17v_A_foWOlvpR0w_vulE1JuxNCLYIStu/view?usp=sharing) of the skill. Let's say there is someone who wants to hack your car and needs to know your car model and other private information that is difficult to find. The user trusts an Alexa Skill called security thief with information about his car to get suggestions from Alexa. An attacker then exploits this information that the skill has obtained, without the owner realizing.
+
 
 ##### Alexa Skill Three: 
 Originally I wanted to make an Alexa controlled LED strip that would be hooked up to my raspberry pi with mosfets controlling each of the three colors. But the last step involved changing the routing to enable port forwarding to the pi from the lambda function and alexa cloud service, and Duke OIT had a firewall that prevented this. However, in a normal home this should be fine and simultaneously shows that home networks are not as intense as university or corporate networks. 
