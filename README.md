@@ -58,15 +58,15 @@ Setting up the triggers and linking other services in AWS Lambda:
 
 
 ##### Code
-The code for the settings can be found [here.](code/AlexaInteractionModelCar) The AWS Lambda Function Python code can be found [here](code/lambdaFunctionSkill2.py). The code basically handles the intents sent from the interaction model and user's voice inputs, and details what kind of responses should be given. 
+The code for the settings can be found [here.](code/AlexaInteractionModelCar) The AWS Lambda Function Python code can be found [here](code/lambdaFunctionSkill2.py). The function code basically handles the intents sent from the interaction model and user's voice inputs, and details what kind of responses should be given. 
 
 
 * ##### Alexa Skill Three: LED Strip
 The hardware used in this skill were RGB LED strip, raspberry pi, breadboard, mosfets, wires, power jack adpaters, power source, and Echo Dot. 
+This is a diagram representing how the main hardware components were wired together: 
 
 ![Wiring Diagram](images/wiring.PNG)
 
-This is a diagram representing how the main hardware components were wired together. 
 
 ![setup](images/pi.jpg)
 
@@ -89,4 +89,4 @@ I was not expecting to have issues with connecting my pi to the Alexa cloud serv
 
 Also, this was my first experience learning about the raspberry pi, which I thought was cool because I have always been curious about it.
 
-In the future I would try integrating my Alexa Skill with other API's outside of Amazon just to expand its capacity and impact and see how it works. 
+In the future I would try integrating my Alexa Skill with other API's outside of Amazon to expand its capacity and impact and see how it works. 
