@@ -39,8 +39,8 @@ This was made by linking my Amazon Alexa account to an IFTTT applet and adjustin
 ![IFTTT1a](images/ifttt.PNG ) 
 
 ##### Alexa Skill Two: Car Hacker
-Let's say there is someone who wants to hack your car and needs to know your car model and other private information that is difficult to find. The hardware involved in this skill is my Echo Dot and a hypothetical car. 
-
+The hardware involved in this skill is my Echo Dot and a hypothetical car. The software tools and services used were the Alexa Developer Platform and a Python AWS Lambda Function, which integrates with the Alexa API very nicely. Below are screen shots of the Alexa Developer Platform interaction model and Lambda Function Set up. The interaction model is generated from the Alexa Developer Platform settings and the Natural Language Processing provided by the Alexa Service. 
+![IFTTT1a](images/ifttt.PNG ) 
 
 #### Hardware Wiring Diagram
 
@@ -54,10 +54,7 @@ Let's say there is someone who wants to hack your car and needs to know your car
 //Multiline
 bool photon_fun = TRUE;
 ```
-You should link to your full code, either included in the repository (e.g. [my_code.ino](code/my_code.ino)  or to the Shared Revision in your Particle IDE. >
-
-
-
+You should link to your full code, either included in the repository (e.g. [my_code.ino](code/my_code.ino)
 
 ### Design / Form
 
