@@ -88,4 +88,4 @@ I was not expecting to have issues with connecting my pi to the Alexa cloud serv
 
 Also, this was my first experience learning about the raspberry pi, which I thought was cool because I have always been curious about it.
 
-In the future I would try integrating my Alexa Skill with other API's outside of Amazon just to expand its capacity and see how it works. 
+In the future I would try integrating my Alexa Skill with other API's outside of Amazon just to expand its capacity and impact and see how it works. 
