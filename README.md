@@ -58,6 +58,7 @@ Lambda Function Python code can be found [here](code/lambdaFunctionSkill2.py). T
 
 
 * ##### Alexa Skill Three: LED Strip
+The hardware used in this skill were RGB LED strip, raspberry pi, breadboard, mosfets, wires, power jack adpaters, power source, and Echo Dot. 
 
 ![Wiring Diagram](images/WiringDiagram.png)
 < Insert Picture and explanation of Your Wiring Diagram here >
