@@ -40,7 +40,7 @@ This was made by linking my Amazon Alexa account to an IFTTT applet and adjustin
 
 ##### Alexa Skill Two: Car Hacker
 The hardware involved in this skill is my Echo Dot and a hypothetical car. The software tools and services used were the Alexa Developer Platform and a Python AWS Lambda Function, which integrates with the Alexa API very nicely. Below are screen shots of the Alexa Developer Platform interaction model and Lambda Function Set up. The interaction model is generated from the Alexa Developer Platform settings and the Natural Language Processing provided by the Alexa Service. 
-![IFTTT1a](images/ifttt.PNG ) 
+![arn](arn.PNG)  ![model](model.PNG )  ![testing](testing.PNG )   ![lambda](lambda.PNG ) 
 
 #### Hardware Wiring Diagram
 
