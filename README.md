@@ -24,7 +24,7 @@ Here is a [video](https://drive.google.com/file/d/17v_A_foWOlvpR0w_vulE1JuxNCLYI
 
 
 * ##### Alexa Skill Three: LED Strip
-Originally I wanted to make an Alexa controlled LED strip that would be hooked up to my raspberry pi with mosfets controlling each of the three colors. But the last step involved changing the routing to enable port forwarding to the pi from the lambda function and alexa cloud service, but Duke OIT had a firewall that prevented this. However, in a normal home this should be fine, which simultaneously shows that home networks are not as protected as university or corporate networks, making smart home hardware even more vulnerable. I am planning to set this up at home over winter break.
+Originally, I wanted to make an Alexa controlled LED strip that would be hooked up to my raspberry pi with mosfets controlling each of the three colors. But the last step involved changing the routing to enable port forwarding to the pi from the lambda function and alexa cloud service, but Duke OIT had a firewall that prevented this. However, in a normal home this should be fine, which simultaneously shows that home networks are not as protected as university or corporate networks, making smart home hardware even more vulnerable. I am planning to set this up at home over winter break.
 
 
 
