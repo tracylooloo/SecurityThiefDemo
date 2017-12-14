@@ -70,6 +70,8 @@ This is a diagram representing how the main hardware components were wired toget
 
 ![setup](images/pi.jpg)
 
+[Here](code/AlexaInteractionModelLights) is the code for the interaction model.
+[Here](code/lambdafunction3.js) is the code for the corresponding AWS Lambda function.
 
 ### Design / Form
 The 3D printed enclosure represents a thief. I modeled the enclosure specific to the dimensions of the Echo Dot and left the top hollow for acoustic effects. I also made sure there was enough of a gap between the edge of the enclosure and the outer array of microphones. 
