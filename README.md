@@ -23,7 +23,12 @@ I wanted to demonstrate these themes with three Alexa Skills representing three 
 An attacker could secretly ask the Echo to call the owner and send an evil message. The Echo does not record the voice or recording of the attacker, because the Alexa voice service only keeps the JSON objects processed from the voice commands. This allows the attacker to have anonymity and makes it difficult to track or trace back the attacker. I set up an Alexa Skill to demonstrate this, which assumes that the owner has settings on his or her device that knows the owner's phone number and allows it to be messaged, which people usually enable for convenience purposes. The attacker will ask "Alexa trigger call my phone" and the phone message sent is "Send $2000 to xyzhacker paypal account otherwise you will die tomorrow". 
 
 ##### Alexa Skill Two: Car Hacker
-Let's say there is someone who wants to hack your car and needs to know your car model and other private information that is difficult to find. The 
+Here is a [video](https://drive.google.com/file/d/17v_A_foWOlvpR0w_vulE1JuxNCLYIStu/view?usp=sharing) of the skill. Let's say there is someone who wants to hack your car and needs to know your car model and other private information that is difficult to find. The user trusts an Alexa Skill called security thief with information about his car to get suggestions from Alexa. An attacker then exploits this information that the skill has obtained, without the owner realizing.
+
+##### Alexa Skill Three: 
+Originally I wanted to make an Alexa controlled LED strip that would be hooked up to my raspberry pi with mosfets controlling each of the three colors. But the last step involved changing the routing to enable port forwarding to the pi from the lambda function and alexa cloud service, and Duke OIT had a firewall that prevented this. However, in a normal home this should be fine and simultaneously shows that home networks are not as intense as university or corporate networks. 
+
+
 
 ### Technical Description
 
@@ -31,10 +36,10 @@ Let's say there is someone who wants to hack your car and needs to know your car
 
 < You can also explain the development process here >
 ##### Alexa Skill One: Phone trigger 
-This was made by linking my Amazon Alexa account to an IFTTT applet and adjusting the settings in the IFTTT applet. 
+This was made by linking my Amazon Alexa account to an IFTTT applet and adjusting the settings in the IFTTT applet. The hardware in this skill was my Echo Dot and my phone. 
 
 ##### Alexa Skill Two: Car Hacker
-Let's say there is someone who wants to hack your car and needs to know your car model and other private information that is difficult to find. The  
+Let's say there is someone who wants to hack your car and needs to know your car model and other private information that is difficult to find. The hardware involved in this skill is my Echo Dot and a hypothetical car. 
 
 
 #### Hardware Wiring Diagram
