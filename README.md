@@ -36,7 +36,7 @@ Originally I wanted to make an Alexa controlled LED strip that would be hooked u
 ##### Alexa Skill One: Phone trigger 
 This was made by linking my Amazon Alexa account to an IFTTT applet and adjusting the settings in the IFTTT applet. The hardware in this skill was my Echo Dot and my phone. 
 
-![IFTTT1a](images/ifttt1a.png{width=20px )  ![IFTTT1b](images/ifttt1b.png)  ![IFTTT2](images/ifttt2.PNG)
+![IFTTT1a](images/ifttt.PNG ) 
 
 ##### Alexa Skill Two: Car Hacker
 Let's say there is someone who wants to hack your car and needs to know your car model and other private information that is difficult to find. The hardware involved in this skill is my Echo Dot and a hypothetical car. 
