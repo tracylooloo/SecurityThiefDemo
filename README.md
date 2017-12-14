@@ -30,7 +30,6 @@ Originally I wanted to make an Alexa controlled LED strip that would be hooked u
 
 ### Technical Description
 
-< You can also explain the development process here >
 * ##### Alexa Skill One: Phone trigger
 This was made by linking my Amazon Alexa account to an IFTTT applet and adjusting the settings in the IFTTT applet. The hardware in this skill was my Echo Dot and my phone. 
 
@@ -38,6 +37,7 @@ This was made by linking my Amazon Alexa account to an IFTTT applet and adjustin
 
 * ##### Alexa Skill Two: Car Hacker
 The hardware involved in this skill is my Echo Dot and a hypothetical car. The software tools and services used were the Alexa Developer Platform and a Python AWS Lambda Function, which integrates with the Alexa API very nicely. Below are screen shots of the Alexa Developer Platform interaction model and Lambda Function Set up. The interaction model is generated from the Alexa Developer Platform settings and the Natural Language Processing provided by the Alexa Service. Having different Sample Utterances for each intent "trains" the model and allows the user to speak a command in different but equivalent ways, in addition to generated commands that Alexa knows is equivalent. The code for the settings can be found [here](code/AlexaInteractionModel)
+
 ![arn](images/arn.PNG) 
 
 Linking the arn ID of the AWS Lambda Function
@@ -60,17 +60,10 @@ Lambda Function Python code can be found [here](code/lambdaFunctionSkill2.py). T
 * ##### Alexa Skill Three: LED Strip
 The hardware used in this skill were RGB LED strip, raspberry pi, breadboard, mosfets, wires, power jack adpaters, power source, and Echo Dot. 
 
-![Wiring Diagram](images/WiringDiagram.png)
-< Insert Picture and explanation of Your Wiring Diagram here >
+![Wiring Diagram](images/wiring.PNG)
 
-#### Code
+This is a diagram representing how the main hardware components were wired together. 
 
-< Explain your code.  You might include code snippets, either `inline` or
-```c++
-//Multiline
-bool photon_fun = TRUE;
-```
-You should link to your full code, either included in the repository (e.g. [my_code.ino](code/my_code.ino)
 
 ### Design / Form
 The 3D printed enclosure represents a thief. I modeled the enclosure specific to the dimensions of the Echo Dot and left the top hollow for acoustic effects. I also made sure there was enough of a gap between the edge of the enclosure and the outer array of microphones. 
@@ -84,5 +77,7 @@ The [video](https://drive.google.com/file/d/17v_A_foWOlvpR0w_vulE1JuxNCLYIStu/vi
 My personal evaluation of the project was that it was fun, unique, and insightful. I got to get my hands on a little bit of everything from 3D printing and wiring to coding and storytelling which I really enjoyed. 
 
 I was not expecting to have issues with connecting my pi to the Alexa cloud service, and was surprised by the firewall and restrictions implemented by Duke OIT. This did make me more aware of the security and "behind the scenes" of Duke networks, and how different it is from a home network, which actually helped me prove my of my point regarding the vulnerability of smart home devices. Although my LED strip couldn't be connected on Duke's WiFi, I plan to bring back the set up over winter break and try it in my home. 
+
+Also, this was my first experience learning about the raspberry pi, which I thought was cool because I have always been curious about it.
 
 In the future I would try integrating my Alexa Skill with other API's outside of Amazon just to expand its capacity and see how it works. 
