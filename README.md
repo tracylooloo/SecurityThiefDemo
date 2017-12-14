@@ -68,6 +68,8 @@ The hardware used in this skill were RGB LED strip, raspberry pi, breadboard, mo
 
 This is a diagram representing how the main hardware components were wired together. 
 
+![setup](images/pi.jpg)
+
 
 ### Design / Form
 The 3D printed enclosure represents a thief. I modeled the enclosure specific to the dimensions of the Echo Dot and left the top hollow for acoustic effects. I also made sure there was enough of a gap between the edge of the enclosure and the outer array of microphones. 
