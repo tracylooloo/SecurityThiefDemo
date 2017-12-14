@@ -15,15 +15,15 @@ The purpose of my project was to display potential attacker effects and inspire 
 
 I wanted to demonstrate these themes with three Alexa Skills representing three different scenarios or stories.
 
-*##### Alexa Skill One: Phone trigger* 
+##### Alexa Skill One: Phone trigger
 An attacker could secretly ask the Echo to call the owner and send an evil message. The Echo does not record the voice or recording of the attacker, because the Alexa voice service only keeps the JSON objects processed from the voice commands. This allows the attacker to have anonymity and makes it difficult to track or trace back the attacker. I set up an Alexa Skill to demonstrate this, which assumes that the owner has settings on his or her device that knows the owner's phone number and allows it to be messaged, which people usually enable for convenience purposes. The attacker will ask "Alexa trigger call my phone" and the phone message sent is "Send $2000 to xyzhacker paypal account otherwise you will die tomorrow". 
 
 
-*##### Alexa Skill Two: Car Hacker*
+##### Alexa Skill Two: Car Hacker
 Here is a [video](https://drive.google.com/file/d/17v_A_foWOlvpR0w_vulE1JuxNCLYIStu/view?usp=sharing) of the skill. Let's say there is someone who wants to hack your car and needs to know your car model and other private information that is difficult to find. The user trusts an Alexa Skill called security thief with information about his car to get suggestions from Alexa. An attacker then exploits this information that the skill has obtained, without the owner realizing.
 
 
-* ##### Alexa Skill Three: LED Strip* 
+##### Alexa Skill Three: LED Strip
 Originally I wanted to make an Alexa controlled LED strip that would be hooked up to my raspberry pi with mosfets controlling each of the three colors. But the last step involved changing the routing to enable port forwarding to the pi from the lambda function and alexa cloud service, but Duke OIT had a firewall that prevented this. However, in a normal home this should be fine, which simultaneously shows that home networks are not as intense as university or corporate networks. I am planning to set this up at home over winter break.
 
 
@@ -36,14 +36,14 @@ This was made by linking my Amazon Alexa account to an IFTTT applet and adjustin
 
 ![IFTTT1a](images/ifttt.PNG ) 
 
-*##### Alexa Skill Two: Car Hacker*
+##### Alexa Skill Two: Car Hacker
 The hardware involved in this skill is my Echo Dot and a hypothetical car. The software tools and services used were the Alexa Developer Platform and a Python AWS Lambda Function, which integrates with the Alexa API very nicely. Below are screen shots of the Alexa Developer Platform interaction model and Lambda Function Set up. The interaction model is generated from the Alexa Developer Platform settings and the Natural Language Processing provided by the Alexa Service. Having different Sample Utterances for each intent "trains" the model and allows the user to speak a command in different but equivalent ways, in addition to generated commands that Alexa knows is equivalent. 
 ![arn](images/arn.PNG)  ![model](images/model.PNG )  ![testing](images/testing.PNG )   ![lambda](images/lambda.PNG )  
-*##### Code*
+##### Code
 Lambda Function Python code can be found [here](code/lambdaFunctionSkill2.py). The code basically handles the intents sent from the interaction model and user's voice inputs, and details what kind of responses should be given. 
 
 
-*##### Alexa Skill Three: *
+##### Alexa Skill Three: LED Strip
 
 ![Wiring Diagram](images/WiringDiagram.png)
 < Insert Picture and explanation of Your Wiring Diagram here >
