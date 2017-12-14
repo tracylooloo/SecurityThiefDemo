@@ -1,0 +1,50 @@
+Intent Schema:
+{
+  "intents": [
+    {
+      "slots": [
+        {
+          "name": "Car",
+          "type": "LIST_OF_CARS"
+        }
+      ],
+      "intent": "MyCarIsIntent"
+    },
+    {
+      "intent": "WhatsMyCarIntent"
+    },
+    {
+      "intent": "AMAZON.HelpIntent"
+    }
+  ]
+}
+
+Custom Slots
+LIST_OF_CARS
+toyota camry
+tesla
+honda civic
+ford focus
+BMW
+acura
+
+Sample Utterances
+MyCarIsIntent my car is {Car}
+MyCarIsIntent my car model is {Car}
+WhatsMyCarIntent what is my car
+WhatsMyCarIntent what is my car model
+WhatsMyCarIntent what's my car
+WhatsMyCarIntent what is my car model
+WhatsMyCarIntent what is my car
+WhatsMyCarIntent my car model
+WhatsMyCarIntent my car
+WhatsMyCarIntent get my car model
+WhatsMyCarIntent get my car
+WhatsMyCarIntent give me my car model
+WhatsMyCarIntent give me my car
+WhatsMyCarIntent what my car is
+WhatsMyCarIntent what my car model is
+WhatsMyCarIntent yes
+WhatsMyCarIntent yup
+WhatsMyCarIntent sure
+WhatsMyCarIntent yes please
