@@ -58,15 +58,15 @@ bool photon_fun = TRUE;
 You should link to your full code, either included in the repository (e.g. [my_code.ino](code/my_code.ino)
 
 ### Design / Form
-
 The 3D printed enclosure represents a theif. I modeled the enclosure specific to the dimensions of the Echo Dot and left the top hollow for acoustic effects. I also made sure there was enough of a gap between the edge of the enclosure and the outer array of microphones. 
-![enclosure](enc.PNG)
-
+![enclosure](images/enc.PNG)
 
 The [video](https://drive.google.com/file/d/17v_A_foWOlvpR0w_vulE1JuxNCLYIStu/view?usp=sharing) also shows a 360 view of the enclosure. 
 
 
 ### Evaluation / Reflection
+My personal evaluation of the project was that it was fun, unique, and insightful. I got to get my hands on a little bit of everything from 3D printing and wiring to coding and storytelling which I really enjoyed. 
 
-< What is your own evaluation of your project?   What did you learn through this project?  What would you do differently in the future? >
 I was not expecting to have issues with connecting my pi to the Alexa cloud service, and was surprised by the firewall and restrictions implemented by Duke OIT. This did make me more aware of the security and "behind the scenes" of Duke networks, and how different it is from a home network, which actually helped me prove my of my point regarding the vulnerability of smart home devices. Although my LED strip couldn't be connected on Duke's WiFi, I plan to bring back the set up over winter break and try it in my home. 
+
+In the future I would try integrating my Alexa Skill with other API's outside of Amazon just to expand its capacity and see how it works. 
