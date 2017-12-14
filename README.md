@@ -11,7 +11,7 @@ The purpose of my project was to display potential attacker effects and inspire 
 ### Detailed Project Description
 
 #### Background Information:
- The voice assistant device I used was the Echo Dot. Alexa is the cloud voice service and Echo is the hardware device consisting of a microphone array capable of beaming and noise cancellation which respond to the wake word “Alexa”. As an Amazon user, I thought it was interesting how much is accessible through Alexa and the Amazon ecosystem . For example, to make the Alexa Skills, I used my AWS account which is linked to my Alexa Skills Developer account, Amazon Alexa account, Amazon.com account, Zappos account, and Goodreads account, which means if someone hacked into my account through my Echo they would have access to my credit card, buying items, the things that I’m hosting on AWS, the hardware and appliances that the voice assistant is connected to, and other private information. Also, most people have their voice assistants in an open mode, meaning that anyone can talk to it and the Echo will respond. In addition, a couple months ago I read an article about how some hackers are using high frequency recordings that the Echo’s hardware can pick up and execute, but that humans can’t hear, allowing them to secretly gain access to information without the owner knowing. Voice Assistants are becoming increasingly popular, especially in homes and other hardware devices. People are trusting voice assistants for lights, cameras, locks, etc. and personal information due to the convenience and services that it offers.
+ The voice assistant device I used was the Echo Dot. Alexa is the cloud voice service and Echo is the hardware device consisting of a microphone array capable of beaming and noise cancellation which respond to the wake word “Alexa”. As an Amazon user, I thought it was interesting how much is accessible through Alexa and the Amazon ecosystem. For example, to make the Alexa Skills, I used my AWS account which is linked to my Alexa Skills Developer account, Amazon Alexa account, Amazon.com account, Zappos account, and Goodreads account, which means if someone hacked into my account through my Echo they would have access to my credit card, buying items, the things that I’m hosting on AWS, the hardware and appliances that the voice assistant is connected to, and other private information. Also, most people have their voice assistants in an open mode, meaning that anyone can talk to it and the Echo will respond. In addition, I read an [article](https://finance.yahoo.com/news/simple-hack-over-amazon-echo-125838262.html) about how some hackers are using high frequency recordings that the Echo’s hardware can pick up and execute, but that humans can’t hear, allowing them to secretly gain access to information without the owner knowing. Voice Assistants are becoming increasingly popular, especially in homes and other hardware devices. People are trusting voice assistants for lights, cameras, locks, etc. and personal information due to the convenience and services that it offers.
 
 I wanted to demonstrate these themes with three Alexa Skills representing three different scenarios or stories.
 
@@ -24,13 +24,11 @@ Here is a [video](https://drive.google.com/file/d/17v_A_foWOlvpR0w_vulE1JuxNCLYI
 
 
 ##### Alexa Skill Three: 
-Originally I wanted to make an Alexa controlled LED strip that would be hooked up to my raspberry pi with mosfets controlling each of the three colors. But the last step involved changing the routing to enable port forwarding to the pi from the lambda function and alexa cloud service, and Duke OIT had a firewall that prevented this. However, in a normal home this should be fine and simultaneously shows that home networks are not as intense as university or corporate networks. 
+Originally I wanted to make an Alexa controlled LED strip that would be hooked up to my raspberry pi with mosfets controlling each of the three colors. But the last step involved changing the routing to enable port forwarding to the pi from the lambda function and alexa cloud service, but Duke OIT had a firewall that prevented this. However, in a normal home this should be fine, which simultaneously shows that home networks are not as intense as university or corporate networks. I am planning to set this up at home over winter break.
 
 
 
 ### Technical Description
-
-< Explain the "how" of your project.  What are the hardware components?  What are the software components?  How do they interact with each other? >
 
 < You can also explain the development process here >
 ##### Alexa Skill One: Phone trigger 
@@ -62,6 +60,8 @@ You should link to your full code, either included in the repository (e.g. [my_c
 ### Design / Form
 
 The 3D printed enclosure represents a theif. I modeled the enclosure specific to the dimensions of the Echo Dot and left the top hollow for acoustic effects. I also made sure there was enough of a gap between the edge of the enclosure and the outer array of microphones. 
+![enclosure](enc.PNG)
+
 
 The [video](https://drive.google.com/file/d/17v_A_foWOlvpR0w_vulE1JuxNCLYIStu/view?usp=sharing) also shows a 360 view of the enclosure. 
 
