@@ -18,9 +18,6 @@ I wanted to demonstrate these themes with three Alexa Skills representing three 
 ##### Alexa Skill One: Phone trigger 
 An attacker could secretly ask the Echo to call the owner and send an evil message. The Echo does not record the voice or recording of the attacker, because the Alexa voice service only keeps the JSON objects processed from the voice commands. This allows the attacker to have anonymity and makes it difficult to track or trace back the attacker. I set up an Alexa Skill to demonstrate this, which assumes that the owner has settings on his or her device that knows the owner's phone number and allows it to be messaged, which people usually enable for convenience purposes. The attacker will ask "Alexa trigger call my phone" and the phone message sent is "Send $2000 to xyzhacker paypal account otherwise you will die tomorrow". 
 
-![IFTTT1a](images/ifttt1a.png)  ![IFTTT1b](images/ifttt1b.png)  ![IFTTT2](images/ifttt2.PNG)
-
-
 
 ##### Alexa Skill Two: Car Hacker
 Here is a [video](https://drive.google.com/file/d/17v_A_foWOlvpR0w_vulE1JuxNCLYIStu/view?usp=sharing) of the skill. Let's say there is someone who wants to hack your car and needs to know your car model and other private information that is difficult to find. The user trusts an Alexa Skill called security thief with information about his car to get suggestions from Alexa. An attacker then exploits this information that the skill has obtained, without the owner realizing.
@@ -38,6 +35,8 @@ Originally I wanted to make an Alexa controlled LED strip that would be hooked u
 < You can also explain the development process here >
 ##### Alexa Skill One: Phone trigger 
 This was made by linking my Amazon Alexa account to an IFTTT applet and adjusting the settings in the IFTTT applet. The hardware in this skill was my Echo Dot and my phone. 
+
+![IFTTT1a](images/ifttt1a.png{width=20px )  ![IFTTT1b](images/ifttt1b.png)  ![IFTTT2](images/ifttt2.PNG)
 
 ##### Alexa Skill Two: Car Hacker
 Let's say there is someone who wants to hack your car and needs to know your car model and other private information that is difficult to find. The hardware involved in this skill is my Echo Dot and a hypothetical car. 
@@ -62,12 +61,9 @@ You should link to your full code, either included in the repository (e.g. [my_c
 
 ### Design / Form
 
-< Explain the device's form, the aesthetic choices made and how they relate to the concept/function the device is intended to engage >
-
-< include photos of your device >
 The 3D printed enclosure represents a theif. I modeled the enclosure specific to the dimensions of the Echo Dot and left the top hollow for acoustic effects. I also made sure there was enough of a gap between the edge of the enclosure and the outer array of microphones. 
 
-[Video](https://drive.google.com/file/d/17v_A_foWOlvpR0w_vulE1JuxNCLYIStu/view?usp=sharing) of one of the Alexa Skills:
+The [video](https://drive.google.com/file/d/17v_A_foWOlvpR0w_vulE1JuxNCLYIStu/view?usp=sharing) also shows a 360 view of the enclosure. 
 
 
 ### Evaluation / Reflection
