@@ -58,7 +58,7 @@ bool photon_fun = TRUE;
 You should link to your full code, either included in the repository (e.g. [my_code.ino](code/my_code.ino)
 
 ### Design / Form
-The 3D printed enclosure represents a theif. I modeled the enclosure specific to the dimensions of the Echo Dot and left the top hollow for acoustic effects. I also made sure there was enough of a gap between the edge of the enclosure and the outer array of microphones. 
+The 3D printed enclosure represents a thief. I modeled the enclosure specific to the dimensions of the Echo Dot and left the top hollow for acoustic effects. I also made sure there was enough of a gap between the edge of the enclosure and the outer array of microphones. 
 
 ![enclosure](images/enc.PNG)
 
