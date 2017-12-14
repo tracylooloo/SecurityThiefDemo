@@ -36,29 +36,29 @@ This was made by linking my Amazon Alexa account to an IFTTT applet and adjustin
 ![IFTTT1a](images/ifttt.PNG ) 
 
 * ##### Alexa Skill Two: Car Hacker
-The hardware involved in this skill is my Echo Dot and a hypothetical car. The software tools and services used were the Alexa Developer Platform and a Python AWS Lambda Function, which integrates with the Alexa API very nicely. Below are screen shots of the Alexa Developer Platform interaction model and Lambda Function Set up. The interaction model is generated from the Alexa Developer Platform settings and the Natural Language Processing provided by the Alexa Service. Having different Sample Utterances for each intent "trains" the model and allows the user to speak a command in different but equivalent ways, in addition to generated commands that Alexa knows is equivalent. The code for the settings can be found [here.](code/AlexaInteractionModelCar)
+The hardware involved in this skill is my Echo Dot and a hypothetical car. The software tools and services used were the Alexa Developer Platform and a Python AWS Lambda Function, which integrates with the Alexa API very nicely. Below are screen shots of the Alexa Developer Platform interaction model and Lambda Function Set up. The interaction model is generated from the Alexa Developer Platform settings and the Natural Language Processing provided by the Alexa Service. Having different Sample Utterances for each intent "trains" the model and allows the user to speak a command in different but equivalent ways, in addition to generated commands that Alexa knows is equivalent. 
 
-Linking the arn ID of the AWS Lambda Function
+Linking the arn ID of the AWS Lambda Function to my Alexa Skill:
 
 ![arn](images/arn.PNG) 
 
-Setting up the data used to train and generate the interaction model
+Setting up the data used to train and generate the interaction model:
 
 ![model](images/model.PNG ) 
 
 
-Online simulation and testing
+Online simulation and testing in the developer portal:
 
 ![testing](images/testing.PNG ) 
 
 
-Setting up the triggers and linking other services
+Setting up the triggers and linking other services in AWS Lambda:
 
 ![lambda](images/lambda.PNG )  
 
 
 ##### Code
-Lambda Function Python code can be found [here](code/lambdaFunctionSkill2.py). The code basically handles the intents sent from the interaction model and user's voice inputs, and details what kind of responses should be given. 
+The code for the settings can be found [here.](code/AlexaInteractionModelCar) The AWS Lambda Function Python code can be found [here](code/lambdaFunctionSkill2.py). The code basically handles the intents sent from the interaction model and user's voice inputs, and details what kind of responses should be given. 
 
 
 * ##### Alexa Skill Three: LED Strip
