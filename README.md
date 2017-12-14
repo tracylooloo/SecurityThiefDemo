@@ -24,7 +24,7 @@ Here is a [video](https://drive.google.com/file/d/17v_A_foWOlvpR0w_vulE1JuxNCLYI
 
 
 * ##### Alexa Skill Three: LED Strip
-Originally I wanted to make an Alexa controlled LED strip that would be hooked up to my raspberry pi with mosfets controlling each of the three colors. But the last step involved changing the routing to enable port forwarding to the pi from the lambda function and alexa cloud service, but Duke OIT had a firewall that prevented this. However, in a normal home this should be fine, which simultaneously shows that home networks are not as intense as university or corporate networks, making smart home hardware even more vulnerable. I am planning to set this up at home over winter break.
+Originally I wanted to make an Alexa controlled LED strip that would be hooked up to my raspberry pi with mosfets controlling each of the three colors. But the last step involved changing the routing to enable port forwarding to the pi from the lambda function and alexa cloud service, but Duke OIT had a firewall that prevented this. However, in a normal home this should be fine, which simultaneously shows that home networks are not as protected as university or corporate networks, making smart home hardware even more vulnerable. I am planning to set this up at home over winter break.
 
 
 
@@ -37,7 +37,7 @@ This was made by linking my Amazon Alexa account to an IFTTT applet and adjustin
 ![IFTTT1a](images/ifttt.PNG ) 
 
 * ##### Alexa Skill Two: Car Hacker
-The hardware involved in this skill is my Echo Dot and a hypothetical car. The software tools and services used were the Alexa Developer Platform and a Python AWS Lambda Function, which integrates with the Alexa API very nicely. Below are screen shots of the Alexa Developer Platform interaction model and Lambda Function Set up. The interaction model is generated from the Alexa Developer Platform settings and the Natural Language Processing provided by the Alexa Service. Having different Sample Utterances for each intent "trains" the model and allows the user to speak a command in different but equivalent ways, in addition to generated commands that Alexa knows is equivalent. 
+The hardware involved in this skill is my Echo Dot and a hypothetical car. The software tools and services used were the Alexa Developer Platform and a Python AWS Lambda Function, which integrates with the Alexa API very nicely. Below are screen shots of the Alexa Developer Platform interaction model and Lambda Function Set up. The interaction model is generated from the Alexa Developer Platform settings and the Natural Language Processing provided by the Alexa Service. Having different Sample Utterances for each intent "trains" the model and allows the user to speak a command in different but equivalent ways, in addition to generated commands that Alexa knows is equivalent. The code for the settings can be found [here](code/AlexaInteractionModel)
 ![arn](images/arn.PNG) 
 
 Linking the arn ID of the AWS Lambda Function
