@@ -39,12 +39,13 @@ This was made by linking my Amazon Alexa account to an IFTTT applet and adjustin
 ![IFTTT1a](images/ifttt.PNG ) 
 
 ##### Alexa Skill Two: Car Hacker
-The hardware involved in this skill is my Echo Dot and a hypothetical car. The software tools and services used were the Alexa Developer Platform and a Python AWS Lambda Function, which integrates with the Alexa API very nicely. Below are screen shots of the Alexa Developer Platform interaction model and Lambda Function Set up. The interaction model is generated from the Alexa Developer Platform settings and the Natural Language Processing provided by the Alexa Service. 
-![arn](images/arn.PNG)  ![model](images/model.PNG )  ![testing](images/testing.PNG )   ![lambda](images/lambda.PNG ) ![trigger](images/trigger.PNG ) 
+The hardware involved in this skill is my Echo Dot and a hypothetical car. The software tools and services used were the Alexa Developer Platform and a Python AWS Lambda Function, which integrates with the Alexa API very nicely. Below are screen shots of the Alexa Developer Platform interaction model and Lambda Function Set up. The interaction model is generated from the Alexa Developer Platform settings and the Natural Language Processing provided by the Alexa Service. Having different Sample Utterances for each intent "trains" the model and allows the user to speak a command in different but equivalent ways, in addition to generated commands that Alexa knows is equivalent. 
+![arn](images/arn.PNG)  ![model](images/model.PNG )  ![testing](images/testing.PNG )   ![lambda](images/lambda.PNG )  
 ###### Code
-Lambda Function Python code can be found [lambdafunc2](code/lambdaFunctionSkill2.py)
+Lambda Function Python code can be found [here](code/lambdaFunctionSkill2.py). The code basically handles the intents sent from the interaction model and user's voice inputs, and details what kind of responses should be given. 
 
-#### Hardware Wiring Diagram
+
+##### Alexa Skill Three: 
 
 ![Wiring Diagram](images/WiringDiagram.png)
 < Insert Picture and explanation of Your Wiring Diagram here >
