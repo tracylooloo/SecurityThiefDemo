@@ -18,7 +18,7 @@ I wanted to demonstrate these themes with three Alexa Skills representing three 
 ##### Alexa Skill One: Phone trigger 
 An attacker could secretly ask the Echo to call the owner and send an evil message. The Echo does not record the voice or recording of the attacker, because the Alexa voice service only keeps the JSON objects processed from the voice commands. This allows the attacker to have anonymity and makes it difficult to track or trace back the attacker. I set up an Alexa Skill to demonstrate this, which assumes that the owner has settings on his or her device that knows the owner's phone number and allows it to be messaged, which people usually enable for convenience purposes. The attacker will ask "Alexa trigger call my phone" and the phone message sent is "Send $2000 to xyzhacker paypal account otherwise you will die tomorrow". 
 
-![IFTTT1](images/ifttt1a.PNG)  ![IFTTT1](images/ifttt1b.PNG)  ![IFTTT2](images/ifttt2.PNG)
+![IFTTT1a](images/ifttt1a.png)  ![IFTTT1b](images/ifttt1b.png)  ![IFTTT2](images/ifttt2.PNG)
 
 
 
