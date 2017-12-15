@@ -1,5 +1,5 @@
 # CMAC565: Final Project - Physical Computing and the Internet of Things
-
+Computational Media, Arts & Cultures
 *Name:*  Tracy Lu
 
 *Date:* December 2017
