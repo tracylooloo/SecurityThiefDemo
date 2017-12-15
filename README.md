@@ -71,8 +71,8 @@ This is a diagram representing how the main hardware components were wired toget
 
 ![setup](images/pi.jpg)
 
-[Here](code/AlexaInteractionModelLights) is the code for the interaction model.
-[Here](code/lambdafunction3.js) is the code for the corresponding AWS Lambda function.
+[Here](code/AlexaInteractionModelLights) is the code for the interaction model that creates intents for the lights.
+[Here](code/lambdafunction3.js) is the code for the corresponding AWS Lambda function that tells the pi how to control the pins for different color effects.
 The raspberry pi code was based on the code from [this](https://github.com/adza45/echo/tree/master/Raspberry%20Pi%20Code) github repository. 
 
 ### Design / Form
