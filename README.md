@@ -1,4 +1,4 @@
-# Final Project - Physical Computing and the Internet of Things
+# CMAC565: Final Project - Physical Computing and the Internet of Things
 
 *Name:*  Tracy Lu
 
